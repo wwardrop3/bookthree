@@ -45,7 +45,7 @@ const shopForGroceries = () => {
     console.log("shop for groceries")
 }
 
-const unBagGroceries = () => {
+const unbagGroceries = () => {
     console.log("Unbag all groceries")
 }
 
@@ -53,3 +53,12 @@ const putAway = () => {
     console.log("Put groceries away")
 }
 
+mealsForWeek()
+ingredientsNeeded()
+takeInventory()
+ingredientsToBuy()
+getBags()
+driveToStore()
+shopForGroceries()
+unbagGroceries()
+putAway()
