@@ -5,7 +5,9 @@ const step4 = "Bake the mixture"
 const step5 = "Break the hardened sheet into 6 pieces"
 const step6 = "Enjoy!"
 
+//create array to display steps when complete
 const steps = [step1,step2,step3,step4, step5,step6]
+
 const buyMilkChocolate = () => {
     const candy = {
         type: "Milk Chocolate",
@@ -13,6 +15,7 @@ const buyMilkChocolate = () => {
     
     return candy
 }
+
 
 const addFlavor = (candyObject) => {
     candyObject.flavor = "Mint"
